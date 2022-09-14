@@ -1,4 +1,3 @@
 # kokoa_clone_2022 Update
 
-CSS got  so much fun
-
+HTML and CSS are so much fun!
