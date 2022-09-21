@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KakaoTalk</title>
+    <link rel="stylesheet" href="css/kokoa.css"/>
+
+</head>
+<body>
+    <div class ="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>     
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+         </div>
+    </div>    
+    <header class= "welcome-header">
+        <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+        <p class="welcome-header__text">if you have a Kakao Account, 
+            log in with your email or phone number.   
+        </p>
+    </header>
+
+    <form action="friends.html" method="get"  id= "login-form">
+        <input name="username" type="text" placeholder="Email or phone number"/>
+    <!--get 방식으로 쓰면 주소가 어떻게 나오는지 보기위해 "name"을 넣어봄-->
+        <input name="password" type="password" placeholder="Password"/>
+        <input type="submit"  value="Log In"/>
+        <a href="#">Find Kakao Account or Password</a>
+
+    </form>
+     
+
+    <script 
+    src="https://kit.fontawesome.com/1f7fdb41ef.js" 
+    crossorigin="anonymous">
+    </script>
+       
+    
+</body>
+</html>
