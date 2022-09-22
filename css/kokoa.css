@@ -5,7 +5,6 @@
 @import "status-bar.css";
 /*screens*/
 @import "login.css";
-
-body {
+@import "nav_bar.css" body {
   font-family: "Open Sans", sans-serif;
 }
