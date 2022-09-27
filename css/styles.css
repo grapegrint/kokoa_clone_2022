@@ -3,12 +3,14 @@
 @import "variables.css";
 /*component */
 @import "components/status-bar.css";
-/*screens*/
-@import "screen/login.css";
 @import "components/nav_bar.css";
 @import "components/screen-header.css";
-@import "screen/friends.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+/*screens*/
+@import "screen/login.css";
+@import "screen/friends.css";
+@import" screen/find.css";
 
 body {
   color: #2f363e;
