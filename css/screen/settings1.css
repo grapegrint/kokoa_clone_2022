@@ -1,0 +1,16 @@
+.settings__setting {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__icon {
+  display: flex;
+  margin-right: 15px;
+  padding: 15px 0;
+}
+.settings__divider {
+  display: flex;
+  margin-left: auto;
+  color: rgba(0, 0, 0, 0.5);
+}
