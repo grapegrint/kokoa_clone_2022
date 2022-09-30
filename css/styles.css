@@ -25,3 +25,8 @@ body {
 .main-screen {
   padding: 0px var(--page_space);
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
