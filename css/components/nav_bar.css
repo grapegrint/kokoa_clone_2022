@@ -18,10 +18,26 @@
   position: relative;
 }
 
+@keyframes spinNotification{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: translateY(-5px); 
+  }
+  100%{
+    transform: none;
+  }
+}
+
+
 .nav__notification {
   position: absolute;
   right: -15px;
   bottom: 15px;
+  animation: spinNotification 2s ease-in-out infinite;
+  
+  
 }
 
 .nav__elipsis {
