@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: var(--page_space);
     align-items: center;
-     margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .alt-screen-header__title{
